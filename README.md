@@ -3,5 +3,5 @@ The Spot is a website intended for students who want to know the menu that is of
 # Execution
 Open a navigator
 Press ctr-O
-Select the .html file inside the folder
+Select the index.html file inside the folder
 Enjoy
