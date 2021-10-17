@@ -1,0 +1,60 @@
+*{
+    margin: 0;
+}
+.header{
+    background-color: azure;
+    padding: 10px;
+    padding-left: 20px;
+
+}
+nav{
+    padding: 20px;
+    background-color: bisque;
+    text-align: center;
+}
+nav .nav_left-button{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+nav .nav_right-button{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+main{
+    background-color: azure;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+}
+h2{
+    text-align: center;
+}
+sub{
+    font-size: 10px;
+}
+
+ul{
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+
+
+footer{
+    background-color: blanchedalmond;
+    display: flex;
+}
+.footer_left-side{
+    padding: 10px;
+    font-size: 12px;
+}
+.footer_right-side{
+    text-align: right;
+    margin-left: auto;
+    padding: 10px;
+    font-size: 12px;
+}
