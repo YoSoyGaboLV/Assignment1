@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+}
+.header{
+    background-color: azure;
+    padding: 10px;
+    padding-left: 20px;
+
+}
+h1{
+    line-height: 200%;
+}
+nav{
+    padding: 20px;
+    background-color: bisque;
+    text-align: center;
+}
+nav .nav_left-button{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+nav .nav_right-button{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+main{
+    background-color: azure;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+}
+h2{
+    text-align: center;
+}
+sub{
+    font-size: 10px;
+}
+
+/* MAIN */
+
+/* DIV STYLE */
+main div{
+    display: flex;
+    align-items: center;
+}
+main div div{
+    height: 400px;
+    width: 350px;
+    
+    background-size: 350px 400px;
+    border-radius: 30px;
+    align-items: center;
+    margin: 50px auto;
+
+}
+.div_up-left{
+    background-image: url(./cook.jpg);  
+}
+
+.div_up-center{
+        background-image: url(./coder.jpg);
+}
+
+.div_up-right{
+        background-image: url(./chassistant.jpg);
+}
+
+.div_down-right{
+        background-image: url(./receptionist.jpg);
+}
+.div_down-left{
+    background-image: url(./waiter.jpg);
+}
+button{
+    position: relative;
+    top: 150px;
+    left: 150px;
+    height: 40px;
+    width: 170px;
+    border-radius: 10px;
+    border-style: none;
+    background-color: azure;
+    opacity: 0.4;
+}
+button:hover{
+    background-color: azure;
+    opacity: 9;
+}
+
+
+
+
+
+
+footer{
+    background-color: blanchedalmond;
+    display: flex;
+}
+.footer_left-side{
+    padding: 10px;
+    font-size: 12px;
+}
+.footer_right-side{
+    text-align: right;
+    margin-left: auto;
+    padding: 10px;
+    font-size: 12px;
+}

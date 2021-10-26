@@ -1,0 +1,273 @@
+*{
+    margin: 0;
+    
+}
+.header{
+    background-color: azure;
+    padding-bottom: 5px;
+    padding-left: 20px;
+
+}
+header img{
+    width: 150px;
+    height: 120px;
+}
+sub{
+    font-size: 10px;
+    position: relative;
+    bottom: 30px;
+}
+nav{
+    padding: 20px;
+    background-color: bisque;
+    text-align: center;
+}
+nav .nav_left-button{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+
+}
+nav .nav_right-button{
+    padding: 5px;
+    text-decoration: none;
+    color: black;
+}
+main{
+    background-color: azure;
+    margin: 0;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    
+}
+h1{
+
+}
+main h2{
+    text-align: center;
+    padding: 10px;
+}
+main .main_menu{
+   display: flex;
+   justify-content: center;
+}
+main .main-menu div{
+    margin: 0 15px;
+}
+
+/* LEFT CARD ROTATION */
+
+main .main_left-menu{
+    height: 400px;
+    width: 250px;
+    border-radius: 20px;
+    margin: 0 15px;
+    background:none;
+    position: relative;
+}
+.main_left-menu .left-menu{
+    height: 400px;
+    border-radius: 20px;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    padding:2px;
+    color: black;
+}
+.left-menu.back{
+    transform: rotateY(-180deg);
+    background-color: white; 
+    bottom: 400px;
+}
+.left-menu.front{
+    background-color: blanchedalmond;
+    
+}
+.main_left-menu:hover .left-menu.front{
+    transform: rotateY(180deg);
+}
+.main_left-menu:hover .left-menu.back{
+    transform: rotateY(0deg);
+}
+/* END OF LEFT CARD ROTATION */
+/* BEGINNING OF LEFT CARD FRONT TEXT */
+.left-menu_tittle{
+    color: brown;
+    text-align: center;
+    margin-top: 175px;
+    font-size: 25px;
+}
+/* END LEFT CARD FRONT TEXT */
+/* BEGINNING LEFT CARD BACK TEXT */
+
+.left-menu_items{
+    margin-top: 175px;
+}
+.left-menu_item{
+    text-align: center;
+    margin: 5px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BEGINNING OF CENTER CARD */
+main .main_center-menu{
+    height: 400px;
+    width: 250px;
+    background-color: none;
+    border-radius: 20px;
+    margin: 0 15px;
+    position: relative;
+    
+}
+.main_center-menu .center-menu{
+    height: 400px;
+    border-radius: 20px;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    padding:2px;
+    color: black;
+}
+.center-menu.back{
+    transform: rotateY(-180deg);
+    background-color: white; 
+    bottom: 400px;
+}
+.center-menu.front{
+    background-color: blanchedalmond;
+    
+}
+.main_center-menu:hover .center-menu.front{
+    transform: rotateY(180deg);
+}
+.main_center-menu:hover .center-menu.back{
+    transform: rotateY(0deg);
+}
+/* END OF CENTER CARD ROTATION */
+/* BEGINNING OF CENTER CARD FRONT TEXT */
+.center-menu_tittle{
+    color: brown;
+    text-align: center;
+    margin-top: 175px;
+    font-size: 25px;
+}
+/* END OF CENTER CARD */
+/* BEGINNING RIGHT CARD TEXT */
+.center-menu_items{
+    margin-top: 175px;
+}
+.center-menu_item{
+    text-align: center;
+    margin: 5px 0px;
+}
+/* END RIGHT CARD TEXT */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* BEGINNING OF RIGHT CARD */
+main .main_right-menu{
+    height: 400px;
+    width: 250px;
+    size: 15rem;
+    background-color: none;
+    border-radius: 20px;
+    margin: 0 15px;
+    position: relative;
+}
+.main_right-menu .right-menu{
+    height: 400px;
+    border-radius: 20px;
+    transition: all 0.8s ease;
+    backface-visibility: hidden;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 250px;
+    padding:2px;
+    color: black;
+}
+.right-menu.back{
+    transform: rotateY(-180deg);
+    background-color: white; 
+    bottom: 400px;
+}
+.right-menu.front{
+    background-color: blanchedalmond;
+    
+}
+.main_right-menu:hover .right-menu.front{
+    transform: rotateY(180deg);
+}
+.main_right-menu:hover .right-menu.back{
+    transform: rotateY(0deg);
+}
+/* END OF RIGHT CARD ROTATION */
+/* BEGINNING OF RIGHT CARD FRONT TEXT */
+.right-menu_tittle{
+    color: brown;
+    text-align: center;
+    margin-top: 175px;
+    font-size: 25px;
+}
+/* END OF RIGHT CARD */
+/* BEGINING RIGHT CARD TEXT */
+.right-menu_items{
+    margin-top: 175px;
+}
+.right-menu_item{
+    text-align: center;
+    margin: 5px 0px;
+}
+/* END RIGHT CARD TEXT */
+
+
+
+footer{
+    background-color: blanchedalmond;
+    display: flex;
+}
+.footer_left-side{
+    padding: 10px;
+    font-size: 12px;
+}
+.footer_right-side{
+    text-align: right;
+    margin-left: auto;
+    padding: 10px;
+    font-size: 12px;
+}
+
+
+
